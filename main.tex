@@ -1,0 +1,60 @@
+\documentclass[UTF8,oneside,openany,zihao=-4]{ctexbook}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{xcolor}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!45!black,
+  urlcolor=blue!45!black,
+  pdftitle={中国科学院大学 2026 级新生指南},
+  pdfauthor={试管}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{中国科学院大学 2026 级新生指南}
+\fancyhead[R]{\leftmark}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{15pt}
+
+\setlist{nosep}
+\sloppy
+
+\title{中国科学院大学 2026 级新生指南}
+\author{试管}
+\date{\today}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+\chapter*{编者说明}
+本指南面向中国科学院大学 2026 级本科新生，希望帮助大家在开学前后更快熟悉国科大的学习、生活和办事方式。
+
+学校安排、系统流程、课程要求和导师名单都可能随年份调整。涉及具体时间、地点、名单和办理入口的内容，请以 2026 级官方通知为准。
+
+\tableofcontents
+
+\mainmatter
+\input{chapters/01-first-lesson}
+\input{chapters/02-course-selection}
+\input{chapters/03-enterprise-wechat}
+
+\appendix
+\input{appendices/military-training-schedule}
+\input{appendices/mentor-list}
+
+\backmatter
+\chapter*{版权和致谢}
+本指南原作者：试管，中国科学院大学本科部 23 级学生。
+
+\end{document}
